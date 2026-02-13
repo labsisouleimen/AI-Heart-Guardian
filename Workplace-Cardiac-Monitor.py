@@ -9,7 +9,7 @@ from tensorflow.keras.layers import Conv1D, MaxPooling1D, LSTM, Flatten, Dense, 
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 import joblib
-import wfdb
+import wfdb 
 from tkinter import messagebox
 # 📌 تحميل StandardScaler والنموذج المدرب
 scaler = joblib.load("scaler.pkl")
@@ -17,7 +17,7 @@ model = tf.keras.models.load_model("ecg_cnn_lstm_model2.h5")
 # إنشاء نافذة CustomTkinter
 apphealth = ctk.CTk(fg_color="#ffffff")
 apphealth.title("WorkerHealth")
-apphealth.iconbitmap("C:/Users/mehdi/Desktop/mecg/imgecg/favicon.ico")
+apphealth.iconbitmap("mecg/imgecg/favicon.ico")
 apphealth.geometry("650x500")
 apphealth.resizable(False, False)
 
@@ -81,7 +81,7 @@ menu.add_separator()
 menu.add_command(label="Exit", command=apphealth.destroy)
 menu.add_command(label="About Us")
 
-icon5 = ctk.CTkImage(light_image=Image.open("C:/Users/mehdi/Desktop/mecg/imgecg/menu.png"), size=(30, 30))
+icon5 = ctk.CTkImage(light_image=Image.open("mecg/imgecg/menu.png"), size=(30, 30))
 #btn5 = ctk.CTkButton(apphealth, text="Menu", width=100, height=50)
 btn5=ctk.CTkButton(apphealth, image=icon5, text="Menu", width=145, height=100,
                         fg_color="#ffffff", hover_color="#ffffff", compound="left",
@@ -164,12 +164,12 @@ def contactus():
 
 
 # إضافة الأزرار
-list_button_topbar(topbar, "C:/Users/mehdi/Desktop/mecg/imgecg/home.png", "Home", command=home)
-list_button_topbar(topbar, "C:/Users/mehdi/Desktop/mecg/imgecg/pin-location.png", "Contact Us",command=contactus)
-list_button_topbar(topbar, "C:/Users/mehdi/Desktop/mecg/imgecg/monitor.png", "Healthy", command=open_file)
+list_button_topbar(topbar, "mecg/imgecg/home.png", "Home", command=home)
+list_button_topbar(topbar, "mecg/imgecg/pin-location.png", "Contact Us",command=contactus)
+list_button_topbar(topbar, "mecg/imgecg/monitor.png", "Healthy", command=open_file)
 
 # شعار التطبيق
-img_apphealth = Image.open("C:/Users/mehdi/Desktop/mecg/imgecg/WorkerHealth Logo Design.png")
+img_apphealth = Image.open("mecg/imgecg/WorkerHealth Logo Design.png")
 health_image = ctk.CTkImage(dark_image=img_apphealth, size=(250, 250))
 healthimg_label = ctk.CTkLabel(apphealth, image=health_image, text="")
 healthimg_label.pack(pady=25, anchor="center")
