@@ -21,9 +21,9 @@ Heart disease remains a leading cause of health emergencies in the workplace. Th
 
 | Feature | Interface / Result | Description |
 | :--- | :---: | :--- |
-| **AI Dashboard** | <img src="رابط_صورة_الواجهة_الرئيسية" width="400"> | The main desktop interface showing real-time ECG wave analysis and health status. |
-| **Model Performance** | <img src="رابط_صورة_رسم_بياني_للدقة" width="400"> | Accuracy and Loss graphs showing the successful training of the custom AI model. |
-| **Detection Result** | <img src="رابط_صورة_نتيجة_الفحص" width="400"> | Instant visual feedback (Normal/Abnormal) with confidence score. |
+| **AI Dashboard** | <img src="https://raw.githubusercontent.com/labsisouleimen/AI-Heart-Guardian/240b04fb34e8fc280c1f4df6e63f58c1be1a3c84/image.png" width="350"> | The main desktop interface showing real-time ECG wave analysis and health status. |
+| **Model Performance** | <img src="https://raw.githubusercontent.com/labsisouleimen/AI-Heart-Guardian/4b550b43f2512d7dfd276aaf58bd304d86a90d4a/image.png" width="400"> | Accuracy and Loss graphs showing the successful training of the custom AI model. |
+| **Detection Result** | <img src="https://github.com/labsisouleimen/AI-Heart-Guardian/blob/main/image.png?raw=true" width="400"> | Instant visual feedback (Normal/Abnormal) with confidence score. |
 
 ---
 
