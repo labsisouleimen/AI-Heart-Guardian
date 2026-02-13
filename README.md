@@ -43,7 +43,7 @@ Unlike many generic solutions, this project covers the full Machine Learning lif
 * **Core:** Python 3.x
 * **Deep Learning:** TensorFlow & Keras
 * **Data Processing:** NumPy, Pandas, Scikit-learn
-* **GUI:** [ذكر المكتبة المستخدمة مثل PyQt6 or Tkinter]
+* **GUI:** [Tkinter]
 * **Visualization:** Matplotlib / Seaborn
 
 ---
