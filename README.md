@@ -52,3 +52,10 @@ Unlike many generic solutions, this project covers the full Machine Learning lif
 1. **Clone the repository:**
    ```bash
       git clone https://github.com/labsisouleimen/AI-Heart-Guardian.git
+
+---
+
+## 📩 Contact
+Developed by Souleimen Labsi
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/souleimen-labsi-5937783ab/)
+   
